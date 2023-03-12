@@ -29,15 +29,23 @@ To install and run the project:
 
 1.  Install dependencies using the following command:
     
-    Copy code
+
     
-    `npm install`
+    ``` bash
+    
+    npm install
+    
+    ```
     
 2.  Start the server using the following command:
     
-    Copy code
+
     
-    `npm run dev`
+    ``` bash
+
+    npm run dev
+
+    ```
     
 
 By following these simple steps, you can quickly get the project up and running on your local machine.
