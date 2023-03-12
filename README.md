@@ -43,7 +43,7 @@ To install and run the project:
     
     ``` bash
 
-    npm run dev
+    node index.js
 
     ```
     
