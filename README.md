@@ -1,11 +1,11 @@
-# Whoami_Microservice
+# Whoami Microservice
 
 ![banner]()
 
 
 ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black) [![Node.js](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en/) [![Express.js](https://img.shields.io/badge/Express-000000.svg?style=for-the-badge&logo=Express&logoColor=white)](https://expressjs.com/) ![JSON](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) 
 
-Whoami_Microservice is a request header Parser that extracts and returns a JSON object containing the IP address, language, and software keys from the request header.
+Whoami Microservice is a request header Parser that extracts and returns a JSON object containing the IP address, language, and software keys from the request header.
 
 This project is my solution for the APIs and Microservices Projects - Request Header Parser Microservice, which is part of the APIs and Microservices Certification by freeCodeCamp.
 
