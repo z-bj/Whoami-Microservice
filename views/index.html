@@ -1,34 +1,48 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;900&display=swap" rel="stylesheet">
+  <title>Timestamp Microservice</title>
+</head>
 
-   <head>
-      <title>Request Header Parser</title>
-      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-      <link href="style.css" rel="stylesheet" type="text/css">
-   </head>
+<body>
+  <div class="container">
+    <header>
+      <h1>
+        <div class="primary">Whoami</div>
+        <div class="secondary">Microservice</div>
+      </h1>
+      <hr />
+    </header>
 
-   <body>
-      <div class="container">
-        <h2>Request Header Parser Microservice</h2>
+    <main>
+      <h2>Example Usage</h2>
+      <hr />
 
-        <h3>Example Usage:</h3>
-        <p>
-          <a href="api/whoami">[base url]/api/whoami</a>
-        </p>
-
-        <h3>Example Output:</h3>
-        <p>
-          <code>{"ipaddress":"::ffff:159.20.14.100","language":"en-US,en;q=0.5",<br>"software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}</code>
-        </p>
+      <!-- VALIDATION DATE -->
+      <div class="example">
+        <a href="/api/timestamp/2020-12-30">Date validation</a>
+        <pre class="request">
+          GET https://project-url.com/api/timestamp/2020-12-30
+        </pre>
+        <pre class="json">
+{
+  "unix": 1609286400000,
+  "utc": "Sun, Mar 12, 2023, 05:33:00 GMT+1"
+}
+        </pre>
       </div>
-      <div class="footer">
-        <p>
-          by <a href="https://www.freecodecamp.org">freeCodeCamp</a>
-        </p>
-      </div>
-   </body>
+    </main>
 
+    <footer>
+      by <a href="https://github.com/z-bj">Zakaria Beji</a> 2023
+    </footer>
+  </div>
+</body>
 
 </html>
