@@ -4,45 +4,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;900&display=swap" rel="stylesheet">
-  <title>Timestamp Microservice</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Whoami Microservice</title>
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <h1>
-        <div class="primary">Whoami</div>
-        <div class="secondary">Microservice</div>
-      </h1>
-      <hr />
-    </header>
+  <header>
+    <h1>
+      $ Whoami ?
+    </h1>
+  </header>
 
-    <main>
-      <h2>Example Usage</h2>
-      <hr />
-
-      <!-- VALIDATION DATE -->
-      <div class="example">
-        <a href="/api/timestamp/2020-12-30">Date validation</a>
-        <pre class="request">
-          GET https://project-url.com/api/timestamp/2020-12-30
+  <main>
+    <section>
+      <h2>Request Header Parser
+</h2>
+      <pre>
+        <span class="key">GET</span> /api/whoami
+      </pre>
+      <pre>
+          {
+          &emsp; <span class="key">"ipaddress"</span>: "149.22.34.200",
+          &emsp; <span class="key">"language"</span>: "en-US,en;q=0.5",
+          &emsp; <span class="key">"software"</span>: "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0""
+          }
         </pre>
-        <pre class="json">
-{
-  "unix": 1609286400000,
-  "utc": "Sun, Mar 12, 2023, 05:33:00 GMT+1"
-}
-        </pre>
-      </div>
-    </main>
+      <a class="btn" href="api/whoami">Try it</a>
+    </section>
+  </main>
 
-    <footer>
-      by <a href="https://github.com/z-bj">Zakaria Beji</a> 2023
-    </footer>
-  </div>
+  <footer>
+    <a class="link" href="https://github.com/z-bj">Zakaria Beji</a> 2023
+  </footer>
 </body>
 
 </html>
