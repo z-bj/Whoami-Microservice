@@ -1,10 +1,7 @@
 # Whoami Microservice
 
-<<<<<<< HEAD
-![banner](add)
-=======
 ![Banner](https://github.com/z-bj/Whoami-Microservice/blob/master/Banner.jpg)
->>>>>>> a048aad4948189ca88db09db73176c12768065c1
+
 
 
 ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black) [![Node.js](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en/) [![Express.js](https://img.shields.io/badge/Express-000000.svg?style=for-the-badge&logo=Express&logoColor=white)](https://expressjs.com/) ![JSON](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) 
