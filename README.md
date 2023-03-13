@@ -24,6 +24,20 @@ To meet the requirements of the project, the microservice should:
 -   Return a JSON object with the preferred language in the language key when the endpoint /api/whoami is accessed.
 -   Return a JSON object with the software in the software key when the endpoint /api/whoami is accessed.
 
+## Core
+
+``` javascript
+
+app.get("/api/whoami", (req, res) => {
+  res.json({
+    ipaddress: req.ip, // The IP address of the client making the request
+    language: req.headers["accept-language"], // The language accepted by the client
+    software: req.headers["user-agent"], // The client's user agent information
+  });
+});
+
+```
+
 ## Installation
 
 To install and run the project:
